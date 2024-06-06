@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5d61ae4d-3fa9-4e1c-b155-c07572789235)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 45.72 29.21) (size 20.32 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0e14e951-43c0-4320-a21a-4b234f9cf08c)
+    (property "Sheetname" "PowerSupply" (at 45.72 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerSupply.kicad_sch" (at 45.72 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Effector81_SynthDrum"
+        (path "/5d61ae4d-3fa9-4e1c-b155-c07572789235" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 44.45 55.88) (size 20.32 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3d98fdef-3db0-4356-9641-b4e20ff5389b)
+    (property "Sheetname" "Trigger" (at 44.45 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Trigger.kicad_sch" (at 44.45 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Effector81_SynthDrum"
+        (path "/5d61ae4d-3fa9-4e1c-b155-c07572789235" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 82.55) (size 21.59 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a575526e-2dac-498b-bdab-5d20b687fa0e)
+    (property "Sheetname" "Synth" (at 43.18 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Synth.kicad_sch" (at 43.18 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Effector81_SynthDrum"
+        (path "/5d61ae4d-3fa9-4e1c-b155-c07572789235" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
